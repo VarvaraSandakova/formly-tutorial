@@ -1,0 +1,8 @@
+<div class="container">
+  <h1>Contribution application inDepthDev</h1>
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <formly-form [form]="form" [fields]="fields" [model]="model" [options]="options" ></formly-form>
+    <button class="mat-button" type="submit">Submit</button>
+  </form>
+</div>
+
